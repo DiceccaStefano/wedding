@@ -1,0 +1,196 @@
+a {
+  color: black !important;
+  text-decoration: none !important; /* no underline */
+}
+
+.altezza {
+  min-height: 80vh;
+}
+
+.colorWhite {
+  color: rgb(233, 86, 86);
+}
+
+.su {
+  position: absolute;
+  top: -300px;
+  transition: all 0.5s;
+}
+
+.fixed-top-mobile {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  height: 55px;
+}
+
+.fixed-top-mobile2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 9999;
+  height: 55px;
+}
+
+.backColore {
+  background-color: whitesmoke;
+  max-height: 55px;
+}
+.backColoreTot {
+  background-color: whitesmoke;
+  min-height: 55px;
+}
+
+.transform {
+  position: absolute;
+  top: -210px;
+  transition: all 0.5s;
+  background-color: whitesmoke;
+  width: 100%;
+  z-index: 1020;
+}
+
+.transform-active {
+  position: fixed;
+  top: 53px;
+  transition: all 0.5s;
+  background-color: whitesmoke;
+  width: 100%;
+  z-index: 1020;
+}
+
+.transform-active2 {
+  position: absolute;
+  top: 53px;
+  transition: all 0.5s;
+  background-color: whitesmoke;
+  width: 100%;
+  z-index: 1020;
+}
+
+.menu-btn {
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+/* Styling the hamburger lines */
+.btn-line {
+  width: 30px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: black;
+  transition: all 0.5s ease-out;
+}
+
+.close1 {
+  width: 30px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: black;
+  transition: all 0.5s ease-out;
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.close2 {
+  width: 30px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: transparent;
+  transition: all 0.5s ease-out;
+  transform: rotate(180) translate(5px, 5px);
+}
+
+.close3 {
+  width: 30px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: black;
+  transition: all 0.5s ease-out;
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+/* Styling the three lines
+        to make it an X */
+.closes {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-btn.close .btn-line:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-btn.close .btn-line:nth-child(3) {
+  transform: rotate(-45deg) translate(7px, -6px);
+}
+
+.border-white {
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-color: white !important;
+  border-width: 2px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#section1 {
+  background-color: whitesmoke;
+}
+
+#section2 {
+  background-color: whitesmoke;
+}
+
+.responsiveImg {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
+.center {
+  position: absolute;
+  top: 80%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.center2 {
+  position: absolute;
+  top: 75%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.center_chiesa {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.imgChiesa {
+  width: 100%;
+  height: auto;
+  opacity: 0.8;
+}
+
+.ombraBottoni {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px !important ;
+  border-color: black !important;
+  border-radius: 15px !important;
+}
